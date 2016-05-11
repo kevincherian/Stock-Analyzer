@@ -12,7 +12,7 @@ from pandas_datareader import data as web
 
 
 SITE = "http://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
-START = datetime(2015,3,7)
+START = datetime(2015,5,11)
 END = datetime.today().utcnow()
 
 #to scrape list of tickers from Wikipedia(SITE)
